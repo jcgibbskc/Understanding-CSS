@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Visualizing the Box Model</title>
+    <link rel="stylesheet" href="bmstyle.css">
 </head>
 <body>
-    <div class="box">Hello CSS!</div>
+
+    <div class="margin-visualizer">
+        
+        <div class="box-container" id="main-box">
+            <h2>The Box Model</h2>
+            <p>I am the <strong>Content</strong>.</p>
+            <p>The space around me is <strong>Padding</strong>.</p>
+            <p>The line around that is the <strong>Border</strong>.</p>
+            <p>The space outside that is the <strong>Margin</strong>.</p>
+        </div>
+
+    </div>
+
+    <section class="docs">
+        <h3>Learning Goals & Observations</h3>
+        <ul>
+            <li><strong>Padding:</strong> Increases the "cushion" inside the box.</li>
+            <li><strong>Border:</strong> Acts as the frame; thickness affects total width.</li>
+            <li><strong>Margin:</strong> Pushes the box away from other elements.</li>
+            <li><strong>Border-Radius:</strong> Softens the corners.</li>
+        </ul>
+    </section>
 
 </body>
 </html>
